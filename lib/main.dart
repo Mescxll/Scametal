@@ -67,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
         crossAxisCount: 2,
         crossAxisSpacing: 12,
         mainAxisSpacing: 12,
-        childAspectRatio: 0.47,
+        childAspectRatio: 0.45,
       ),
       itemCount: estadoApp.metais.length,
       itemBuilder: (context, index) =>
