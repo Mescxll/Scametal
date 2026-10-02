@@ -1,0 +1,262 @@
+[
+    {
+        "id": 1,
+        "metal": {
+            "nome": "Ferro",
+            "poderAlomantico": "Atrai fontes de metais próximas",
+            "poderFeruquemico": "Armazena peso físico",
+            "tipoAlomantico": "Atraidor",
+            "categoria": "Externo",
+            "possuiLiga": false,
+            "liga": null,
+            "imagem": {
+                "tipo": "image",
+                "arquivo": "ferro.jpeg"
+            }
+        },
+        "curtidas": 289
+    },
+    {
+        "id": 2,
+        "metal": {
+            "nome": "Aço",
+            "poderAlomantico": "Empurra fontes de metais próximas",
+            "poderFeruquemico": "Armazena velocidade física",
+            "tipoAlomantico": "Lançamoedas",
+            "categoria": "Interno",
+            "possuiLiga": true,
+            "liga": [
+                "Ferro",
+                "Carbono"
+            ],
+            "imagem": {
+                "tipo": "image",
+                "arquivo": "aco.jpeg"
+            }
+        },
+        "curtidas": 301
+    },
+    {
+        "id": 3,
+        "metal": {
+            "nome": "Estanho",
+            "poderAlomantico": "Amplia sentidos",
+            "poderFeruquemico": "Armazena sentidos",
+            "tipoAlomantico": "Olho de estanho",
+            "categoria": "Externo",
+            "possuiLiga": false,
+            "liga": null,
+            "imagem": {
+                "tipo": "image",
+                "arquivo": "estanho.jpeg"
+            }
+        },
+        "curtidas": 261
+    },
+    {
+        "id": 4,
+        "metal": {
+            "nome": "Peltre",
+            "poderAlomantico": "Amplia habilidades físicas",
+            "poderFeruquemico": "Armazena força física",
+            "tipoAlomantico": "Braço de peltre ou Brutamontes",
+            "categoria": "Interno",
+            "possuiLiga": true,
+            "liga": [
+                "Estanho",
+                "Chumbo",
+                91,
+                9
+            ],
+            "imagem": {
+                "tipo": "image",
+                "arquivo": "peltre.jpeg"
+            }
+        },
+        "curtidas": 354
+    },
+    {
+        "id": 5,
+        "metal": {
+            "nome": "Zinco",
+            "poderAlomantico": "Inflama emoções",
+            "poderFeruquemico": "Armazena velocidade mental",
+            "tipoAlomantico": "Tumultuador",
+            "categoria": "Externo",
+            "possuiLiga": false,
+            "liga": null,
+            "imagem": {
+                "tipo": "image",
+                "arquivo": "zinco.jpeg"
+            }
+        },
+        "curtidas": 521
+    },
+    {
+        "id": 6,
+        "metal": {
+            "nome": "Latão",
+            "poderAlomantico": "Atenua emoções",
+            "poderFeruquemico": "Armazena calor",
+            "tipoAlomantico": "Abrandador",
+            "categoria": "Interno",
+            "possuiLiga": true,
+            "liga": [
+                "Cobre",
+                "Zinco"
+            ],
+            "imagem": {
+                "tipo": "image",
+                "arquivo": "latao.jpeg"
+            }
+        },
+        "curtidas": 403
+    },
+    {
+        "id": 7,
+        "metal": {
+            "nome": "Cobre",
+            "poderAlomantico": "Esconde pulsos alomânticos",
+            "poderFeruquemico": "Armazena memórias",
+            "tipoAlomantico": "Esfumaçador",
+            "categoria": "Externo",
+            "possuiLiga": false,
+            "liga": null,
+            "imagem": {
+                "tipo": "image",
+                "arquivo": "cobre.jpeg"
+            }
+        },
+        "curtidas": 351
+    },
+    {
+        "id": 8,
+        "metal": {
+            "nome": "Bronze",
+            "poderAlomantico": "Permite ouvir pulsos alomânticos",
+            "poderFeruquemico": "Armazena prontidão",
+            "tipoAlomantico": "Buscador",
+            "categoria": "Interno",
+            "possuiLiga": true,
+            "liga": [
+                "Cobre",
+                "Estanho"
+            ],
+            "imagem": {
+                "tipo": "image",
+                "arquivo": "bronze.jpeg"
+            }
+        },
+        "curtidas": 197
+    },
+    {
+        "id": 9,
+        "metal": {
+            "nome": "Atium",
+            "poderAlomantico": "Ver o futuro próximo de outra pessoa",
+            "poderFeruquemico": "Armazena idade",
+            "tipoAlomantico": "Desconhecido",
+            "categoria": "Externo",
+            "possuiLiga": false,
+            "liga": null,
+            "imagem": {
+                "tipo": "image",
+                "arquivo": "atium.jpeg"
+            }
+        },
+        "curtidas": 857
+    },
+    {
+        "id": 10,
+        "metal": {
+            "nome": "Malatium",
+            "poderAlomantico": "Ver o passado de outra pessoa",
+            "poderFeruquemico": "Desconhecido",
+            "tipoAlomantico": "Desconhecido",
+            "categoria": "Interno",
+            "possuiLiga": true,
+            "liga": [
+                "Ouro",
+                "Atium"
+            ],
+            "imagem": {
+                "tipo": "image",
+                "arquivo": "malatium.jpeg"
+            }
+        },
+        "curtidas": 98
+    },
+    {
+        "id": 11,
+        "metal": {
+            "nome": "Ouro",
+            "poderAlomantico": "Ver fragmentos reais ou não do próprio passado",
+            "poderFeruquemico": "Armazena saúde",
+            "tipoAlomantico": "Desconhecido",
+            "categoria": "Externo",
+            "possuiLiga": false,
+            "liga": null,
+            "imagem": {
+                "tipo": "image",
+                "arquivo": "ouro.jpeg"
+            }
+        },
+        "curtidas": 102
+    },
+    {
+        "id": 12,
+        "metal": {
+            "nome": "Desconhecido",
+            "poderAlomantico": "Ver fragmentos reais ou não do próprio futuro",
+            "poderFeruquemico": "Desconhecido",
+            "tipoAlomantico": "Desconhecido",
+            "categoria": "Interno",
+            "possuiLiga": "Desconhecido",
+            "liga": "Desconhecido",
+            "imagem": {
+                "tipo": "image",
+                "arquivo": "misterio.jpeg"
+            }
+        },
+        "curtidas": 11
+    },
+    {
+        "id": 13,
+        "metal": {
+            "nome": "Alumínio",
+            "poderAlomantico": "Esgota reservas de metal alomântico",
+            "poderFeruquemico": "Desconhecido",
+            "tipoAlomantico": "Desconhecido",
+            "categoria": "Desconhecido",
+            "possuiLiga": "Desconhecido",
+            "liga": "Desconhecido",
+            "imagem": {
+                "tipo": "image",
+                "arquivo": "aluminio.jpeg"
+            }
+        },
+        "curtidas": 47
+    },
+    {
+        "id": 14,
+        "metal": {
+            "nome": "Duralumínio",
+            "poderAlomantico": "Esgota reservas de metal alomântico, impulsionando os poderes brevemente",
+            "poderFeruquemico": "Desconhecido",
+            "tipoAlomantico": "Desconhecido",
+            "categoria": "Desconhecido",
+            "possuiLiga": true,
+            "liga": [
+                "Alumínio",
+                "Cobre",
+                96,
+                4
+            ],
+            "imagem": {
+                "tipo": "image",
+                "arquivo": "duraluminio.jpeg"
+            }
+        },
+        "curtidas": 98
+    }
+]
