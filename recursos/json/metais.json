@@ -227,7 +227,7 @@
             "poderAlomantico": "Esgota reservas de metal alomântico",
             "poderFeruquemico": "Armazena identidade",
             "tipoAlomantico": "Desconhecido",
-            "categoria": "Desconhecido",
+            "categoria": "Externo",
             "possuiLiga": "Desconhecido",
             "liga": "Desconhecido",
             "imagem": {
@@ -244,7 +244,7 @@
             "poderAlomantico": "Esgota reservas de metal alomântico, impulsionando os poderes brevemente",
             "poderFeruquemico": "Armazena conexão",
             "tipoAlomantico": "Desconhecido",
-            "categoria": "Desconhecido",
+            "categoria": "Interno",
             "possuiLiga": true,
             "liga": [
                 "Alumínio",
