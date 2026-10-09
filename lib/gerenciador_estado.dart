@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-enum EmExibicao { telaMetais }
+enum EmExibicao { telaMetais, telaDetalhes, telaSugestoes }
 
 class GerenciadorEstado extends ChangeNotifier {
   EmExibicao _exibicao = EmExibicao.telaMetais;
@@ -26,6 +26,17 @@ class GerenciadorEstado extends ChangeNotifier {
 
   void exibirMetais() {
     _exibicao = EmExibicao.telaMetais;
+    notifyListeners();
+  }
+
+  void exibirDetalhes(int id) {
+    _exibicao = EmExibicao.telaDetalhes;
+     id = id;
+    notifyListeners();
+  }
+
+  void exibirSugestoes() {
+    _exibicao = EmExibicao.telaSugestoes;
     notifyListeners();
   }
 }
