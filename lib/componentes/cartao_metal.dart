@@ -50,7 +50,7 @@ class CartaoProduto extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-              const SizedBox(height: 8),
+              const SizedBox(height: 18),
               Row(
                 children: [
                   SvgPicture.asset(
@@ -74,7 +74,7 @@ class CartaoProduto extends StatelessWidget {
                   ),
                 ],
               ),
-              const SizedBox(height: 8),
+              const SizedBox(height: 18),
               Text(
                 'Poder alomântico: '
                 '${metal["metal"]["poderAlomantico"]}\n\n'
@@ -85,7 +85,7 @@ class CartaoProduto extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-              const SizedBox(height: 32),
+              const SizedBox(height: 25),
             ],
           ),
         ),
