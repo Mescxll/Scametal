@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:scametal/componentes/detalhes_metal.dart';
 //import 'package:scametal/gerenciador_estado.dart';
 
 class CartaoProduto extends StatelessWidget {
@@ -13,7 +14,13 @@ class CartaoProduto extends StatelessWidget {
     final arquivoIcon = arquivoImagem.replaceFirst('.jpeg', '_icon.svg');
     
     return GestureDetector(
-      //onTap: () => {estadoApp.exibirDetalhes(produto["_id"])},
+      onTap: () {
+        Navigator.of(context).push(
+          MaterialPageRoute<void>(
+            builder: (context) => TelaDetalhesMetal(metal: metal),
+          ),
+        );
+      },
       child: Card(
         color: const Color.fromARGB(255, 234, 81, 34),
         child: Column(
@@ -47,12 +54,12 @@ class CartaoProduto extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(15),
               child: Row(
-                children: [            
+                children: [
                   SvgPicture.asset(
                     'recursos/imagens/$arquivoIcon',
                     width: 32,
                     color: Colors.white,
-                  ),         
+                  ),
                   Text(
                     " ${metal["metal"]["nome"]}",
                     style: const TextStyle(
@@ -62,12 +69,13 @@ class CartaoProduto extends StatelessWidget {
                     ),
                   ),
                 ]
-              ) 
+              )
             ),
             Padding(
               padding: const EdgeInsets.all(15),
               child: Text(
-                "Poder alomântico: ${metal["metal"]["poderAlomantico"]}\n\nPoder Feruquêmico: ${metal["metal"]["poderFeruquemico"]}",
+                'Poder alomântico: ${metal["metal"]["poderAlomantico"]}\n\n'
+                'Poder Feruquêmico: ${metal["metal"]["poderFeruquemico"]}"',
                 style: const TextStyle(fontSize: 16, color: Colors.white),
               ),
             ),
