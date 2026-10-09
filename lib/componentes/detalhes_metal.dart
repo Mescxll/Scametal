@@ -18,6 +18,7 @@ class TelaDetalhesMetal extends StatelessWidget {
         title: Text(metal['metal']['nome'].toString()),
         foregroundColor: const Color.fromARGB(255, 223, 64, 16),
         titleTextStyle: GoogleFonts.poppins(fontSize: 28, color: Color.fromARGB(255, 223, 64, 16)),
+        backgroundColor: Colors.white,
       ),
       body: ListView(
         padding: const EdgeInsets.all(16),

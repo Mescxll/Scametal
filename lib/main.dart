@@ -57,30 +57,58 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       body: AnimatedBuilder(
-  animation: estadoApp,
-  builder: (context, _) {
-    if (estadoApp.carregando) {
-      return const Center(child: CircularProgressIndicator());
-    }
+      animation: estadoApp,
+      builder: (context, _) {
+        if (estadoApp.carregando) {
+          return const Center(child: CircularProgressIndicator());
+        }
 
-    if (estadoApp.erro != null) {
-      return Center(child: Text(estadoApp.erro!));
-    }
+        if (estadoApp.erro != null) {
+          return Center(child: Text(estadoApp.erro!));
+        }
 
-    return GridView.builder(
-      padding: const EdgeInsets.all(12),
-      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 2,
-        crossAxisSpacing: 12,
-        mainAxisSpacing: 12,
-        childAspectRatio: 0.47,
-      ),
-      itemCount: estadoApp.metais.length,
-      itemBuilder: (context, index) =>
-          CartaoProduto(metal: estadoApp.metais[index]),
-    );
-  },
-),
+        return LayoutBuilder(
+          builder: (context, constraints) {
+            const espacamento = 8.0;
+
+            final colunas = constraints.maxWidth < 600 ? 2 : constraints.maxWidth < 900 ? 3 : 4;
+
+            final metais = estadoApp.metais;
+            final quantidadeLinhas = (metais.length + colunas - 1) ~/ colunas;
+
+            return ListView.builder(
+              padding: const EdgeInsets.all(espacamento),
+              itemCount: quantidadeLinhas,
+              itemBuilder: (context, indiceLinha) {
+                final primeiroIndice = indiceLinha * colunas;
+                final restantes = metais.length - primeiroIndice;
+                final quantidadeNaLinha = restantes < colunas ? restantes : colunas;
+
+                return Padding(
+                  padding: const EdgeInsets.only(bottom: espacamento),
+                  child: IntrinsicHeight(
+                    child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
+                      children: List.generate(quantidadeNaLinha, (indiceColuna) {
+                        final indiceMetal = primeiroIndice + indiceColuna;
+
+                        return Expanded(
+                          child: Padding(
+                            padding: EdgeInsets.only(
+                              right: indiceColuna == quantidadeNaLinha - 1 ? 0 : espacamento),
+                            child: CartaoProduto(metal: metais[indiceMetal]),
+                          ),
+                        );
+                      }),
+                    ),
+                  ),
+                );
+              },
+            );
+          },
+        );
+      },
+    ),
     );
   }
 }
