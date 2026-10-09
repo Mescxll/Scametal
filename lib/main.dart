@@ -49,6 +49,12 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
         titleTextStyle: GoogleFonts.poppins(fontSize: 28, color: Colors.white),
         centerTitle: true,
+        leading: IconButton(
+          icon: Image.asset('recursos/imagens/area_ligas_icon.png'),
+          onPressed: () {
+            print("Botão clicado.");
+          },
+        ),
       ),
       body: AnimatedBuilder(
   animation: estadoApp,
