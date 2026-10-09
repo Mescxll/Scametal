@@ -206,8 +206,8 @@
     {
         "id": 12,
         "metal": {
-            "nome": "Desconhecido",
-            "poderAlomantico": "Ver fragmentos reais ou não do próprio futuro",
+            "nome": "Electron",
+            "poderAlomantico": "Ver fragmentos reais ou não do próprio futuro. Contrapõe os ofeitos do atium",
             "poderFeruquemico": "Desconhecido",
             "tipoAlomantico": "Desconhecido",
             "categoria": "Interno",
@@ -225,7 +225,7 @@
         "metal": {
             "nome": "Alumínio",
             "poderAlomantico": "Esgota reservas de metal alomântico",
-            "poderFeruquemico": "Desconhecido",
+            "poderFeruquemico": "Armazena identidade",
             "tipoAlomantico": "Desconhecido",
             "categoria": "Desconhecido",
             "possuiLiga": "Desconhecido",
@@ -242,7 +242,7 @@
         "metal": {
             "nome": "Duralumínio",
             "poderAlomantico": "Esgota reservas de metal alomântico, impulsionando os poderes brevemente",
-            "poderFeruquemico": "Desconhecido",
+            "poderFeruquemico": "Armazena conexão",
             "tipoAlomantico": "Desconhecido",
             "categoria": "Desconhecido",
             "possuiLiga": true,
