@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:scametal/componentes/area_sugestoes.dart';
 import 'package:scametal/componentes/cartao_metal.dart';
 import 'package:scametal/gerenciador_estado.dart';
 
@@ -10,7 +11,7 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
+  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -52,7 +53,12 @@ class _MyHomePageState extends State<MyHomePage> {
         leading: IconButton(
           icon: Image.asset('recursos/imagens/area_ligas_icon.png'),
           onPressed: () {
-            print("Botão clicado.");
+            final parametro = "Sugestões";
+            Navigator.of(context).push(
+              MaterialPageRoute<void>(
+                builder: (context) => TelaSugestoes(title: parametro),
+              ),
+            );
           },
         ),
       ),
