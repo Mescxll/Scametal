@@ -27,4 +27,5 @@ flutter:
   assets:
     - recursos/json/metais.json
     - recursos/imagens/
+    - recursos/json/comentarios.json
 
