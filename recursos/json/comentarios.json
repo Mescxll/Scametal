@@ -1,0 +1,389 @@
+{
+    "comentarios": [
+        {
+            "_id": 1,
+            "metalId": 9,
+            "user": {
+                "userId": 1,
+                "email": "lordelunario@scadrial.com",
+                "name": "O Lorde Governante"
+            },
+            "datetime": "2026-10-12T14:00-0300",
+            "content": "Atium concede uma vantagem intransponível em qualquer combate ao permitir enxergar o futuro próximo[cite: 1]."
+        },
+        {
+            "_id": 2,
+            "metalId": 9,
+            "user": {
+                "userId": 2,
+                "email": "kandra@canonicato.com",
+                "name": "TenSoon"
+            },
+            "datetime": "2026-10-12T14:15-0300",
+            "content": "Um metal extremamente raro e poderoso que mudou os rumos de impérios inteiros[cite: 1]."
+        },
+        {
+            "_id": 3,
+            "metalId": 9,
+            "user": {
+                "userId": 3,
+                "email": "vin@scadrial.com",
+                "name": "Vin"
+            },
+            "datetime": "2026-10-12T14:30-0300",
+            "content": "Encarar alguém queimando Atium exige reflexos rápidos e uma estratégia impecável[cite: 1]."
+        },
+        {
+            "_id": 4,
+            "metalId": 5,
+            "user": {
+                "userId": 4,
+                "email": "breeze@ministry.com",
+                "name": "Breeze"
+            },
+            "datetime": "2026-10-12T12:00-0300",
+            "content": "Com Zinco, você consegue manipular sutilmente as emoções de uma multidão inteira sem que percebam[cite: 1]."
+        },
+        {
+            "_id": 5,
+            "metalId": 5,
+            "user": {
+                "userId": 5,
+                "email": "tumulto@nobre.com",
+                "name": "Tumultuador Anônimo"
+            },
+            "datetime": "2026-10-12T12:15-0300",
+            "content": "Inflamar a raiva ou a esperança das pessoas é uma arte fascinante e perigosa[cite: 1]."
+        },
+        {
+            "_id": 6,
+            "metalId": 5,
+            "user": {
+                "userId": 6,
+                "email": "allrianne@nobres.com",
+                "name": "Allrianne Cett"
+            },
+            "datetime": "2026-10-12T12:30-0300",
+            "content": "Saber o momento exato de inflamar as emoções certas garante qualquer negociação na alta sociedade[cite: 1]."
+        },
+        {
+            "_id": 7,
+            "metalId": 6,
+            "user": {
+                "userId": 7,
+                "email": "allrianne@nobres.com",
+                "name": "Allrianne Cett"
+            },
+            "datetime": "2026-10-12T12:30-0300",
+            "content": "O Latão é perfeito para acalmar os ânimos exaltados ao nosso redor[cite: 1]."
+        },
+        {
+            "_id": 8,
+            "metalId": 6,
+            "user": {
+                "userId": 8,
+                "email": "abrandador@luthadel.com",
+                "name": "Abrandador"
+            },
+            "datetime": "2026-10-12T12:45-0300",
+            "content": "Ótimo para apaziguar guardas irritados antes que eles causem problemas desnecessários[cite: 1]."
+        },
+        {
+            "_id": 9,
+            "metalId": 6,
+            "user": {
+                "userId": 9,
+                "email": "breeze@ministry.com",
+                "name": "Breeze"
+            },
+            "datetime": "2026-10-12T13:00-0300",
+            "content": "Atenuar a apatia ou o medo alheio é uma especialidade que exige sutileza[cite: 1]."
+        },
+        {
+            "_id": 10,
+            "metalId": 4,
+            "user": {
+                "userId": 10,
+                "email": "ham@brutamontes.com",
+                "name": "Ham"
+            },
+            "datetime": "2026-10-12T11:30-0300",
+            "content": "Peltre é o metal definitivo para o combate corpo a corpo. A força física que ele proporciona é incomparável[cite: 1]."
+        },
+        {
+            "_id": 11,
+            "metalId": 4,
+            "user": {
+                "userId": 11,
+                "email": "soldado@mando.com",
+                "name": "Brutamontes"
+            },
+            "datetime": "2026-10-12T11:45-0300",
+            "content": "Armazenar força ferroquimicamente exige paciência, mas vale a pena quando você precisa erguer algo pesado[cite: 1]."
+        },
+        {
+            "_id": 12,
+            "metalId": 4,
+            "user": {
+                "userId": 12,
+                "email": "luthadel@soldados.com",
+                "name": "Soldado Sork"
+            },
+            "datetime": "2026-10-12T12:00-0300",
+            "content": "Um bom queimador de peltre aguenta pancadas que derrubariam qualquer um[cite: 1]."
+        },
+        {
+            "_id": 13,
+            "metalId": 2,
+            "user": {
+                "userId": 13,
+                "email": "dockson@luthadel.com",
+                "name": "Dockson"
+            },
+            "datetime": "2026-10-12T10:30-0300",
+            "content": "Nada como um bom estoque de Aço para conseguir empurrar moedas e voar pelos telhados de Luthadel[cite: 1]!"
+        },
+        {
+            "_id": 14,
+            "metalId": 2,
+            "user": {
+                "userId": 14,
+                "email": "kelsier@survivors.com",
+                "name": "Kelsier"
+            },
+            "datetime": "2026-10-12T10:45-0300",
+            "content": "Armazenar velocidade em um metal de aço salva a sua vida quando você precisa correr mais do que o normal[cite: 1]."
+        },
+        {
+            "_id": 15,
+            "metalId": 2,
+            "user": {
+                "userId": 15,
+                "email": "vin@scadrial.com",
+                "name": "Vin"
+            },
+            "datetime": "2026-10-12T11:00-0300",
+            "content": "O empuxo de aço é a base para a mobilidade de qualquer Alomântico na cidade[cite: 1]."
+        },
+        {
+            "_id": 16,
+            "metalId": 7,
+            "user": {
+                "userId": 16,
+                "email": "elend@imperio.com",
+                "name": "Elend Venture"
+            },
+            "datetime": "2026-10-12T13:00-0300",
+            "content": "O Cobre salva vidas ao esconder nossos pulsos alomânticos de qualquer Buscador curioso[cite: 1]."
+        },
+        {
+            "_id": 17,
+            "metalId": 7,
+            "user": {
+                "userId": 17,
+                "email": "esfumacador@scadrial.com",
+                "name": "Esfumaçador"
+            },
+            "datetime": "2026-10-12T13:15-0300",
+            "content": "As memórias armazenadas nos metalmindes de cobre são um tesouro inestimável para os Guarda-Fios[cite: 1]."
+        },
+        {
+            "_id": 18,
+            "metalId": 7,
+            "user": {
+                "userId": 18,
+                "email": "sazed@terris.org",
+                "name": "Sazed"
+            },
+            "datetime": "2026-10-12T13:30-0300",
+            "content": "Guardar o conhecimento do passado garante que nossa história não seja esquecida[cite: 1]."
+        },
+        {
+            "_id": 19,
+            "metalId": 1,
+            "user": {
+                "userId": 19,
+                "email": "vin@scadrial.com",
+                "name": "Vin"
+            },
+            "datetime": "2026-10-12T10:00-0300",
+            "content": "Ferro é essencial para controlar o peso durante uma luta ou para saltar de grandes alturas sem se machucar[cite: 1]."
+        },
+        {
+            "_id": 20,
+            "metalId": 1,
+            "user": {
+                "userId": 20,
+                "email": "kelsier@survivors.com",
+                "name": "Kelsier"
+            },
+            "datetime": "2026-10-12T10:15-0300",
+            "content": "Como ferroquímico, guardar peso em um bracelete de ferro faz uma diferença absurda[cite: 1]."
+        },
+        {
+            "_id": 21,
+            "metalId": 1,
+            "user": {
+                "userId": 21,
+                "email": "sazed@terris.org",
+                "name": "Sazed"
+            },
+            "datetime": "2026-10-12T10:30-0300",
+            "content": "Ficar extremamente pesado impede que você seja derrubado por ventos fortes ou golpes diretos[cite: 1]."
+        },
+        {
+            "_id": 31,
+            "metalId": 3,
+            "user": {
+                "userId": 31,
+                "email": "sazed@terris.org",
+                "name": "Sazed"
+            },
+            "datetime": "2026-10-12T11:00-0300",
+            "content": "O Estanho é maravilhoso para ampliar os sentidos, embora exija cuidado para não ser oprimido[cite: 1]."
+        },
+        {
+            "_id": 32,
+            "metalId": 3,
+            "user": {
+                "userId": 32,
+                "email": "tinye@scadrial.com",
+                "name": "Olho de Estanho"
+            },
+            "datetime": "2026-10-12T11:15-0300",
+            "content": "Perfeito para vigia noturno ou para enxergar mínimos detalhes na penumbra[cite: 1]."
+        },
+        {
+            "_id": 33,
+            "metalId": 8,
+            "user": {
+                "userId": 33,
+                "email": "tpain@buscadores.com",
+                "name": "Tebor"
+            },
+            "datetime": "2026-10-12T13:30-0300",
+            "content": "O Bronze nunca falha em detectar quando alguém está queimando metal por perto[cite: 1]."
+        },
+        {
+            "_id": 34,
+            "metalId": 8,
+            "user": {
+                "userId": 34,
+                "email": "buscador@ministerio.com",
+                "name": "Buscador Pro"
+            },
+            "datetime": "2026-10-12T13:45-0300",
+            "content": "Saber a direção e a intensidade do pulso alomântico é essencial em investigações[cite: 1]."
+        },
+        {
+            "_id": 35,
+            "metalId": 14,
+            "user": {
+                "userId": 35,
+                "email": "kelsier@survivors.com",
+                "name": "Kelsier"
+            },
+            "datetime": "2026-10-12T14:00-0300",
+            "content": "Duralumínio combinado com peltre ou estanho cria um pico de poder absurdo, mas esgota tudo de uma vez[cite: 1]."
+        },
+        {
+            "_id": 36,
+            "metalId": 14,
+            "user": {
+                "userId": 36,
+                "email": "vin@scadrial.com",
+                "name": "Vin"
+            },
+            "datetime": "2026-10-12T14:15-0300-0300",
+            "content": "Um recurso extremo para virar o jogo em segundos quando não há mais reservas[cite: 1]."
+        },
+        {
+            "_id": 37,
+            "metalId": 11,
+            "user": {
+                "userId": 37,
+                "email": "sazed@terris.org",
+                "name": "Sazed"
+            },
+            "datetime": "2026-10-12T14:30-0300",
+            "content": "Ouro na ferroquimia permite armazenar saúde, o que é uma bênção na recuperação de ferimentos[cite: 1]."
+        },
+        {
+            "_id": 38,
+            "metalId": 11,
+            "user": {
+                "userId": 38,
+                "email": "historias@scadrial.com",
+                "name": "Erudição"
+            },
+            "datetime": "2026-10-12T14:45-0300",
+            "content": "Alomânticamente, encarar o próprio passado pode trazer reflexões profundas ou tormento[cite: 1]."
+        },
+        {
+            "_id": 39,
+            "metalId": 10,
+            "user": {
+                "userId": 39,
+                "email": "historias@scadrial.com",
+                "name": "Erudição"
+            },
+            "datetime": "2026-10-12T15:00-0300",
+            "content": "O Malatium revela visões fascinantes sobre a linhagem e o passado das pessoas[cite: 1]."
+        },
+        {
+            "_id": 40,
+            "metalId": 10,
+            "user": {
+                "userId": 40,
+                "email": "vin@scadrial.com",
+                "name": "Vin"
+            },
+            "datetime": "2026-10-12T15:15-0300",
+            "content": "Foi fundamental para descobrir a verdade por trás do Lorde Governante[cite: 1]."
+        },
+        {
+            "_id": 41,
+            "metalId": 13,
+            "user": {
+                "userId": 41,
+                "email": "civvie@scadrial.com",
+                "name": "Civvie"
+            },
+            "datetime": "2026-10-12T15:30-0300",
+            "content": "O Alumínio é ótimo para se proteger de ataques mentais e limpar reservas indesejadas[cite: 1]."
+        },
+        {
+            "_id": 42,
+            "metalId": 13,
+            "user": {
+                "userId": 42,
+                "email": "aluminio@scadrial.com",
+                "name": "Especialista"
+            },
+            "datetime": "2026-10-12T15:45-0300",
+            "content": "Ferroquimicamente, armazena a identidade, permitindo que você se torne uma pessoa completamente anônima[cite: 1]."
+        },
+        {
+            "_id": 43,
+            "metalId": 12,
+            "user": {
+                "userId": 43,
+                "email": "misterio@scadrial.com",
+                "name": "Desconhecido"
+            },
+            "datetime": "2026-10-12T16:00-0300",
+            "content": "O Electrum mostra visões do próprio futuro imediato, servindo de contraponto direto ao Atium[cite: 1]."
+        },
+        {
+            "_id": 44,
+            "metalId": 12,
+            "user": {
+                "userId": 44,
+                "email": "erudito@scadrial.com",
+                "name": "Pesquisador"
+            },
+            "datetime": "2026-10-12T16:15-0300",
+            "content": "Um metal misterioso cujas propriedades exatas ainda geram muitas dúvidas nos estudos[cite: 1]."
+        }
+    ]
+}
