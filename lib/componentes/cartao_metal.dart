@@ -76,16 +76,15 @@ class CartaoProduto extends StatelessWidget {
               ),
               const SizedBox(height: 18),
               Text(
-                'Poder alomântico: '
-                '${metal["metal"]["poderAlomantico"]}\n\n'
-                'Poder feruquêmico: '
-                '${metal["metal"]["poderFeruquemico"]}',
-                style: const TextStyle(
-                  fontSize: 14,
-                  color: Colors.white,
-                ),
+                'Poder alomântico: ${metal["metal"]["poderAlomantico"]}',
+                style: const TextStyle(fontSize: 14, color: Colors.white),
               ),
-              const SizedBox(height: 25),
+              const SizedBox(height: 15),
+              Text(
+                'Poder feruquêmico: ${metal["metal"]["poderFeruquemico"]}',
+                style: const TextStyle(fontSize: 14, color: Colors.white),
+              ),
+              const SizedBox(height: 18),
             ],
           ),
         ),

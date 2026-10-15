@@ -138,7 +138,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         return Expanded(
                           child: Padding(
                             padding: EdgeInsets.only(
-                              right: indiceColuna == quantidadeNaLinha - 1 ? 0 : espacamento),
+                              right: indiceColuna == quantidadeNaLinha - 1 ? 0 : espacamento,
+                            ),
                             child: CartaoProduto(metal: metais[indiceMetal]),
                           ),
                         );
