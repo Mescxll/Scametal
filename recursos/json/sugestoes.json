@@ -1,0 +1,52 @@
+{
+  "sugestoes": [
+    {
+      "id": 1,
+      "metal1": "Atium",
+      "percentual1": 5,
+      "metal2": "Estanho",
+      "percentual2": 95,
+      "usuario": "Vin"
+    },
+    {
+      "id": 2,
+      "metal1": "Ouro",
+      "percentual1": 20,
+      "metal2": "Cobre",
+      "percentual2": 80,
+      "usuario": "Sazed"
+    },
+    {
+      "id": 3,
+      "metal1": "Aço",
+      "percentual1": 70,
+      "metal2": "Bronze",
+      "percentual2": 30,
+      "usuario": "Kelsier"
+    },
+    {
+      "id": 4,
+      "metal1": "Zinco",
+      "percentual1": 40,
+      "metal2": "Latão",
+      "percentual2": 60,
+      "usuario": "Breeze"
+    },
+    {
+      "id": 5,
+      "metal1": "Alumínio",
+      "percentual1": 10,
+      "metal2": "Duralumínio",
+      "percentual2": 90,
+      "usuario": "Dockson"
+    },
+    {
+      "id": 6,
+      "metal1": "Peltre",
+      "percentual1": 80,
+      "metal2": "Estanho",
+      "percentual2": 20,
+      "usuario": "Ham"
+    }
+  ]
+}
