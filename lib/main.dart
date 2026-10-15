@@ -3,6 +3,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:scametal/componentes/area_sugestoes.dart';
 import 'package:scametal/componentes/cartao_metal.dart';
 import 'package:scametal/gerenciador_estado.dart';
+import 'package:scametal/autenticador.dart';
+import 'package:scametal/usuario.dart';
 
 void main() {
   estadoApp = GerenciadorEstado();
@@ -42,6 +44,28 @@ class _MyHomePageState extends State<MyHomePage> {
     estadoApp.carregarMetais();
   }
 
+  Usuario? _usuario;
+
+  Future<void> _alternarLogin() async {
+    if (_usuario == null) {
+      final usuario = await Autenticador.login();
+
+      if (!mounted) return;
+
+      setState(() {
+        _usuario = usuario;
+      });
+    } else {
+      await Autenticador.logout();
+
+      if (!mounted) return;
+
+      setState(() {
+        _usuario = null;
+      });
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -61,6 +85,19 @@ class _MyHomePageState extends State<MyHomePage> {
             );
           },
         ),
+        actions: [
+          TextButton.icon(
+            onPressed: _alternarLogin,
+            icon: Icon(
+              _usuario == null ? Icons.login : Icons.logout,
+              color: Colors.white,
+            ),
+            label: Text(
+              _usuario == null ? 'Entrar' : 'Sair',
+              style: const TextStyle(color: Colors.white),
+            ),
+          ),
+        ],
       ),
       body: AnimatedBuilder(
       animation: estadoApp,
