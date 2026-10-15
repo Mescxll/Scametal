@@ -63,10 +63,8 @@
             "categoria": "Interno",
             "possuiLiga": true,
             "liga": [
-                "Estanho",
-                "Chumbo",
-                91,
-                9
+                "91% Estanho",
+                "9% Chumbo"
             ],
             "imagem": {
                 "tipo": "image",
@@ -247,10 +245,8 @@
             "categoria": "Interno",
             "possuiLiga": true,
             "liga": [
-                "Alumínio",
-                "Cobre",
-                96,
-                4
+                "96% Alumínio",
+                "4% Cobre"
             ],
             "imagem": {
                 "tipo": "image",
