@@ -125,7 +125,7 @@ class _TelaSugestoesState extends State<TelaSugestoes> {
                     '${sugestao['percentual2']}% ${sugestao['metal2']}',
                   ),
                   subtitle: Text('Sugerida por ${sugestao['usuario']}'),
-                  subtitleTextStyle: TextStyle(color: Color.fromARGB(255, 223, 64, 16), fontWeight: FontWeight.w100),
+                  subtitleTextStyle: TextStyle(color: Color.fromARGB(255, 223, 64, 16), fontWeight: FontWeight.w400),
                 ),
               ),
             ),
