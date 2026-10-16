@@ -36,6 +36,12 @@ Em seguida, inicie o aplicativo:
 flutter run
 ```
 
+`Observação` - Caso deseje gerar o apk para teste em um dispositivo móvel execute:
+
+```bash
+flutter build apk --release
+```
+
 ## Estrutura do projeto
 
 ```text
